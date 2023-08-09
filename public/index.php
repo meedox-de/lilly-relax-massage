@@ -76,12 +76,6 @@
                 </div>
             </section>
 
-            <section id="rewards" class="row py-5 bg-light">
-                <div class="container">
-                    <h4>Belohnungen</h4>
-                </div>
-            </section>
-
             <section id="contact" class="row py-5">
                 <div class="container">
                     <h4>Kontakt</h4>
