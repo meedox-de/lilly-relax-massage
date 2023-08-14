@@ -1,6 +1,39 @@
+@font-face {
+    font-family: "SnellBT";
+    src: url("../fonts/SnellBT-Bold.otf") format("opentype"),
+    url("../fonts/SnellBT-Regular.otf") format("opentype"),
+    url("../fonts/SnellRoundhand-BlackScript.otf") format("opentype"),
+    url("../fonts/SnellRoundhand-BoldScript.otf") format("opentype");
+    font-weight: normal, bold, normal, bold;
+    font-style: normal, normal, normal, normal;
+}
+
+.font-snell {
+    font-family: "SnellBT", sans-serif;
+}
+
+.background-clr {
+    background-color: rgba(162, 217, 133, 0.1);
+}
+
+.background-clr-logo {
+    background-color: #a2d985;
+}
+
+.background-clr-nav {
+    background-color: rgba(162, 217, 133, 0.1);
+}
+
+.background-clr-even {
+    background-color: rgba(162, 217, 133, 0.4);
+}
+
+.background-clr-odd {
+    background-color: rgba(162, 217, 133, 0.2);
+}
+
+
 .image-zoom {
-    overflow: hidden;
-    position: relative;
 }
 
 .image-zoom img {
