@@ -11,7 +11,7 @@
 
 
 <header class="text-center mb-4">
-    <div class="container background-clr-logo p-0">
+    <div class="container background-clr-logo p-0 rounded-bottom-3">
 
         <div class="row align-items-center">
 
@@ -64,7 +64,7 @@
     <div class="row">
         <div class="col">
 
-            <section id="about" class="row mt-4 py-3 background-clr-odd">
+            <section id="about" class="row mt-4 py-3 background-clr-odd rounded-3">
                 <div class="container">
                     <h4 class="mb-3 text-center">Über mich</h4>
 
@@ -92,7 +92,7 @@
                 </div>
             </section>
 
-            <section id="pricelist" class="row mt-4 py-3 background-clr-even">
+            <section id="pricelist" class="row mt-4 py-3 background-clr-even rounded-3">
                 <div class="container">
                     <h4 class="mb-3 text-center">Leistungen und Preise</h4>
                     <div class="row">
@@ -182,7 +182,7 @@
                 </div>
             </section>
 
-            <section id="booking" class="row mt-4 py-3 background-clr-odd">
+            <section id="booking" class="row mt-4 py-3 background-clr-odd rounded-3">
                 <div class="container text-center">
                     <h4 class="mb-3">Terminbuchung</h4>
                     <h5>!Bald verfügbar!</h5>
@@ -194,26 +194,26 @@
                 </div>
             </section>
 
-            <section id="galery" class="row mt-4 py-3 background-clr-even">
+            <section id="galery" class="row mt-4 py-3 background-clr-even rounded-3">
                 <div class="container">
                     <h4 class="mb-3 text-center">Galerie</h4>
 
                     <div class="row g-3">
                         <div class="col-4 image-zoom">
-                            <img src="img/galery/welcome.jpeg" class="rounded img-fluid" alt="Bild mit einem thailändischen 'Willkommen'">
+                            <img src="img/galery/welcome.jpeg" class="rounded-5 img-fluid" alt="Bild mit einem thailändischen 'Willkommen'">
                         </div>
                         <div class="col-4 image-zoom">
-                            <img src="img/galery/massage_table.jpeg" class="rounded img-fluid" alt="Bild von der Massageliege">
+                            <img src="img/galery/massage_table.jpeg" class="rounded-5 img-fluid" alt="Bild von der Massageliege">
                         </div>
                         <div class="col-4 image-zoom">
-                            <img src="img/galery/stones.jpeg" class="rounded img-fluid" alt="Bild mit Steinen für die Hot-Stone Massage">
+                            <img src="img/galery/stones.jpeg" class="rounded-5 img-fluid" alt="Bild mit Steinen für die Hot-Stone Massage">
                         </div>
                     </div>
 
                 </div>
             </section>
 
-            <section id="contact" class="row mt-4 py-3 background-clr-odd">
+            <section id="contact" class="row mt-4 py-3 background-clr-odd rounded-3">
                 <div class="container">
                     <h4 class="mb-3 text-center">Kontakt</h4>
 
@@ -265,7 +265,7 @@
 
 
 <footer class="text-center">
-    <div class="container background-clr-logo mt-4 p-2">
+    <div class="container background-clr-logo mt-4 p-2 rounded-top-3">
         <p>&copy; 2023 <?= (date( 'Y' ) !== '2023' ? ' - ' . date( 'Y' ) : '') ?> Lilly Relax Massage</p>
     </div>
 </footer>
