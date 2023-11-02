@@ -97,7 +97,7 @@
                     <h4 class="mb-3 text-center">Leistungen und Preise</h4>
                     <div class="row">
 
-                        <div class="col-12 mt-3 px-5">
+                        <div class="col-12 mt-3 px-md-5">
 
                             <h5>Aroma Massage</h5>
                             <p class="text-muted">Sanfte Massage mit ätherischem Öl stimuliert das Wohlbefinden des Körpers</p>
