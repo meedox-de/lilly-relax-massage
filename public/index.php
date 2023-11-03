@@ -11,7 +11,7 @@
 
 
 <header class="text-center mb-4">
-    <div class="container background-clr-logo p-0 rounded-bottom-3">
+    <div class="container background-clr-logo rounded-bottom-3">
 
         <div class="row align-items-center">
 
@@ -30,6 +30,8 @@
             </div>
 
             <div class="col-0 col-md-3"></div>
+        </div>
+    </div>
 </header>
 
 
@@ -38,6 +40,9 @@
         <div class="container">
             <ul class="navbar-nav">
 
+                <li class="nav-item me-3">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
                 <li class="nav-item me-3">
                     <a class="nav-link" href="#about">Über mich</a>
                 </li>
@@ -217,8 +222,7 @@
                 <div class="container">
                     <h4 class="mb-3 text-center">Kontakt</h4>
 
-
-                    <div class="row mt-4">
+                    <div class="row mt-5">
                         <div class="container text-center">
                             <p class="">
                                 Weckenweg 27<br>
@@ -231,8 +235,8 @@
 
                     <div class="row mt-5 text-center">
                         <div class="col-12 col-md-4"></div>
-                        <div class="col-12 col-md-4">
-                            <h6 class="border-bottom border-dark-subtle">Öffnungszeiten:</h6>
+                        <div class="col-12 col-md-4 border-top border-dark-subtle">
+                            <h6 class="mt-5">Öffnungszeiten:</h6>
                             <p class="text-muted">gelten nur bei Terminbuchung</p>
 
                             <div class="row">
@@ -248,7 +252,7 @@
                                 <div class="col-3"></div>
                             </div>
 
-                            <p class="mt-3">
+                            <p class="mt-3 mb-4">
                                 oder Termin nach Vereinbarung
                             </p>
                         </div>
@@ -256,17 +260,34 @@
 
                     </div>
                 </div>
+            </section>
         </div>
-        </section>
-    </div>
 
-</div>
+    </div>
 </div>
 
 
 <footer class="text-center">
     <div class="container background-clr-logo mt-4 p-2 rounded-top-3">
-        <p>&copy; 2023 <?= (date( 'Y' ) !== '2023' ? ' - ' . date( 'Y' ) : '') ?> Lilly Relax Massage</p>
+        <div class="row mb-4">
+
+
+            <div class="col text-end m-0 p-0">
+                <a class="nav-link" href="imprint.php">Impressum</a>
+            </div>
+            <div class="col-1 m-0 p-0">
+                <p class="m-0 p-0">|</p>
+            </div>
+            <div class="col text-start m-0 p-0">
+                <a class="nav-link" href="data_protection.php">Datenschutzerklärung</a>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <p>&copy; 2023 <?= (date( 'Y' ) !== '2023' ? ' - ' . date( 'Y' ) : '') ?> Lilly Relax Massage</p>
+        </div>
+
     </div>
 </footer>
 
