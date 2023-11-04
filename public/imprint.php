@@ -103,7 +103,7 @@
 
 
 <footer class="text-center">
-    <div class="container background-clr-logo mt-4 p-2 rounded-top-3">
+    <div class="container background-clr-logo mt-4 pt-2 rounded-top-3">
         <div class="row mb-4">
 
 
