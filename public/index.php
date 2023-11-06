@@ -214,16 +214,16 @@
                                     <p class="text-muted">gelten nur bei Terminbuchung</p>
 
                                     <div class="row">
-                                        <div class="col-3"></div>
-                                        <div class="col-3 text-start">Di / Mi / Do</div>
-                                        <div class="col-3 text-end">9 - 17 Uhr</div>
-                                        <div class="col-3"></div>
+                                        <div class="col-2"></div>
+                                        <div class="col-4">Mo - Fr</div>
+                                        <div class="col-4">15 - 19 Uhr</div>
+                                        <div class="col-2"></div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-3"></div>
-                                        <div class="col-3 text-start">Fr / Sa</div>
-                                        <div class="col-3 text-end">10 - 20 Uhr</div>
-                                        <div class="col-3"></div>
+                                        <div class="col-2"></div>
+                                        <div class="col-4">Sa</div>
+                                        <div class="col-4">10 - 20 Uhr</div>
+                                        <div class="col-2"></div>
                                     </div>
 
                                     <p class="mt-3 mb-4">
