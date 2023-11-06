@@ -66,7 +66,7 @@
     <div class="row">
         <div class="col">
 
-            <section id="imprint" class="row mt-4 py-3 background-clr-odd rounded-3">
+            <section id="imprint" class="row mt-4 py-3 background-clr-odd rounded-3 ps-3 ps-md-4">
                 <div class="container">
                     <h4 class="mb-3 text-center">Impressum</h4>
 
@@ -103,7 +103,6 @@
     <div class="container background-clr-logo mt-4 pt-2 rounded-top-3">
         <div class="row mb-4">
 
-
             <div class="col text-end m-0 p-0">
                 <a class="nav-link" href="imprint.php">Impressum</a>
             </div>
@@ -114,7 +113,6 @@
                 <a class="nav-link" href="data_protection.php">Datenschutzerklärung</a>
             </div>
         </div>
-
 
         <div class="row">
             <p>&copy; 2023 <?= (date( 'Y' ) !== '2023' ? ' - ' . date( 'Y' ) : '') ?> Lilly Relax Massage</p>

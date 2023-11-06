@@ -66,7 +66,7 @@
     <div class="row">
         <div class="col">
 
-            <section id="data_protection" class="row mt-4 py-3 background-clr-odd rounded-3">
+            <section id="data_protection" class="row mt-4 py-3 background-clr-odd rounded-3 ps-3 ps-md-4">
                 <div class="container">
                     <h4 class="mb-3 text-center">Datenschutzerklärung</h4>
 
