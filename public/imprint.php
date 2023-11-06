@@ -53,9 +53,6 @@
                     <a class="nav-link" href="/#booking">Terminbuchung</a>
                 </li>
                 <li class="nav-item me-3">
-                    <a class="nav-link" href="/#galery">Galerie</a>
-                </li>
-                <li class="nav-item me-3">
                     <a class="nav-link" href="/#contact">Kontakt & Öffnungszeiten</a>
                 </li>
             </ul>
