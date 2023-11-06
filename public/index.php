@@ -93,7 +93,7 @@
 
             <section id="pricelist" class="row mt-4 py-3 background-clr-even rounded-3">
                 <div class="container">
-                    <h4 class="mb-3 text-center">Leistungen und Preise</h4>
+                    <h4 class="mb-3 px-md-2 ps-1">Leistungen und Preise</h4>
                     <div class="row">
                         <div class="col-12 mt-3 px-md-4 ps-3">
 
@@ -189,8 +189,14 @@
             <section id="contact" class="row mt-4 py-3 background-clr-even rounded-3">
                 <div class="container">
                     <div class="row">
-                        <h4 class="text-center">Kontakt</h4>
-
+                        <div class="col-0 col-md-5"></div>
+                        <div class="col-12 col-md-6">
+                            <h4 class="text-center">Kontakt</h4>
+                        </div>
+                        <div class="col-0 col-md-1"></div>
+                    </div>
+                    
+                    <div class="row">
                         <div class="col-12 col-md-5">
                             <div class="position-relative top-50 start-50 translate-middle col-5 col-md-10 mt-3 mt-md-0">
                                 <img src="img/galery/welcome.jpeg" class="rounded img-fluid rounded-5 shadow" alt="Bild mit mit einem thailändischen 'Willkommen'">
